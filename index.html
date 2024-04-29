@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="container">
+    <header>
+      <div class="notification__box">
+        <h2>Notifications</h2>
+        <span> </span>
+      </div>
+      <div class="notification__mark">
+        <p>Mark all as read</p>
+      </div>
+    </header>
+
+
+    <!-- Main -->
+    <main>
+      <!-- Mark Webber -->
+      <div class="notification__card unread">
+
+        <img src="./assets/images/avatar-mark-webber.webp" alt="User avatar">
+
+        <div class="notification__content">
+          <p> <strong> Mark Webber </strong> reacted to your recent post
+            <strong> My first tournament today!</strong>
+          </p>
+          <span>1m ago</span>
+        </div>
+      </div>
+
+      <!-- Angela Gray  -->
+      <div class="notification__card unread">
+        <img src="./assets/images/avatar-angela-gray.webp" alt="User avatar">
+        <div class="notification__content">
+          <p> <strong>Angela Gray </strong>followed you </p>
+          <span> 5m ago </span>
+        </div>
+      </div>
+
+      <!--  Jacob Thompson -->
+      <div class="notification__card unread">
+        <img src="./assets/images/avatar-jacob-thompson.webp" alt="User avatar">
+        <div class="notification__content">
+          <p> <strong>Jacob Thompson </strong> has joined your group
+            <strong> Chess Club </strong>
+          </p>
+          <span> 1 day ago </span>
+        </div>
+      </div>
+
+      <!-- Rizky Hasanuddin  -->
+      <div class="notification__card">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="User avatar">
+        <div class="notification__content">
+          <p> <strong>Rizky Hasanuddin </strong> sent you a private message </p>
+          <span> 5 days ago </span>
+        </div>
+      </div>
+      <div class="notification__message">
+        <p> Hello, thanks for setting up the Chess
+          Club. I've been a member for a few weeks now and I'm already having lots of
+          fun and improving my game.
+        </p>
+      </div>
+
+      <!-- Kimberly Smith -->
+      <div class="notification__card">
+        <img src="./assets/images/avatar-kimberly-smith.webp" alt="User avatar">
+        <div class="notification__content">
+          <p> <strong>Kimberly Smith </strong> commented on your picture</p>
+          <span> 1 week ago </span>
+        </div>
+        <img src="./assets/images/image-chess.webp" alt="Chess Image">
+      </div>
+
+      <!-- Nathan Peterson-->
+      <div class="notification__card">
+        <img src="./assets/images/avatar-nathan-peterson.webp" alt="User avatar">
+        <div class="notification__content">
+          <p> <strong>Nathan Peterson </strong> reacted to your recent post <strong> 5 end-game strategies to
+              increase your win rate </strong></p>
+          <span> 2 weeks ago </span>
+        </div>
+      </div>
+
+      <!--  Anna Kim -->
+      <div class="notification__card">
+        <img src="./assets/images/avatar-anna-kim.webp" alt="User avatar">
+        <div class="notification__content">
+          <p> <strong>Anna Kim </strong> left the group <strong>Chess Club </strong></p>
+          <span> 2 weeks ago </span>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+          href="#">Pamela</a>.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
